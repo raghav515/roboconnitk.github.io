@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <script type="text/javascript" src="/js/lib/dummy.js"></script>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+
+  
+    
+      <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=drawing "></script>
+    
+  
+
+  <style type="text/css">
+    body {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 40px;
+}
+#map-canvas {
+    height: 400px;
+    width: 500px;
+}
+  </style>
+
+  <title>Maps API v3 Custom Control and Drawing Manager</title>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+window.onload=function(){
+
+function initialize() {
+
+    var mapOptions = {
+        center: new google.maps.LatLng(18.7519, 79.5134),
+        zoom: 8
+    };
+
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    var drawingManager = new google.maps.drawing.DrawingManager({
+        drawingMode: google.maps.drawing.OverlayType.MARKER,
+        drawingControl: true,
+        drawingControlOptions: {
+            position: google.maps.ControlPosition.TOP_CENTER,
+            drawingModes: [
+            google.maps.drawing.OverlayType.MARKER,
+            google.maps.drawing.OverlayType.CIRCLE,
+            google.maps.drawing.OverlayType.POLYGON,
+            google.maps.drawing.OverlayType.POLYLINE,
+            google.maps.drawing.OverlayType.RECTANGLE]
+        },
+        markerOptions: {
+            icon: 'images/beachflag.png'
+        },
+        circleOptions: {
+            fillColor: '#ffff00',
+            fillOpacity: 1,
+            strokeWeight: 5,
+            clickable: false,
+            editable: true,
+            zIndex: 1
+        }
+    });
+    drawingManager.setMap(map);
+
+    // Create the DIV to hold the control and call the CustomControl() constructor passing in this DIV.
+    var customControlDiv = document.createElement('div');
+    var customControl = new CustomControl(customControlDiv, map);
+
+    customControlDiv.index = 1;
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(customControlDiv);
+}
+
+function CustomControl(controlDiv, map) {
+
+    // Set CSS for the control border
+    var controlUI = document.createElement('div');
+    controlUI.style.backgroundColor = '#ffff99';
+    controlUI.style.borderStyle = 'solid';
+    controlUI.style.borderWidth = '1px';
+    controlUI.style.borderColor = '#ccc';
+    controlUI.style.height = '23px';
+    controlUI.style.marginTop = '5px';
+    controlUI.style.marginLeft = '-6px';
+    controlUI.style.paddingTop = '1px';
+    controlUI.style.cursor = 'pointer';
+    controlUI.style.textAlign = 'center';
+    controlUI.title = 'Click to set the map to Home';
+    controlDiv.appendChild(controlUI);
+
+    // Set CSS for the control interior
+    var controlText = document.createElement('div');
+    controlText.style.fontFamily = 'Arial,sans-serif';
+    controlText.style.fontSize = '10px';
+    controlText.style.paddingLeft = '4px';
+    controlText.style.paddingRight = '4px';
+    controlText.style.marginTop = '-8px';
+    controlText.innerHTML = 'Custom';
+    controlUI.appendChild(controlText);
+
+    // Setup the click event listeners
+    google.maps.event.addDomListener(controlUI, 'click', function () {
+        alert('Custom control clicked');
+    });
+}
+
+initialize();
+
+}
+
+
+
+
+</script>
+
+  
+</head>
+
+<body>
+  <div id="map-canvas"></div>
+  
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "None"
+    }], "*")
+  }
+</script>
+
+</body>
+
+</html>
+
+

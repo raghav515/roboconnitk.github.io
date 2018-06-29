@@ -1742,7 +1742,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #0097a7;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -2065,7 +2065,9 @@ input, select, textarea {
 			}
 
 /* Banner */
-
+.footer{
+	text-align: center;
+}
 	#banner {
 		position: relative;
 		color: #fff;

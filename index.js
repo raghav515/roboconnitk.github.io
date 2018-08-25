@@ -41,6 +41,7 @@ $(document).ready( function() {
 			selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
 			new google.maps.event.trigger(selectedMarker, 'click');
 		}
+		
 	});
 
 

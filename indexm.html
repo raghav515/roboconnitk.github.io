@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>ACM Cache</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <style>
@@ -35,8 +35,8 @@
 	<script src="mapstyle.json" type="text/javascript"></script>
     
   </head>
-  <body>
-      <div class="container search-bar" >
+  <body style="background-color: #80D1FF;">
+      <div class="search-bar" >
 
         <div class="input-field col s12 fields">
                 <input type="text" id="autocomplete-input-search" class="autocomplete">
@@ -44,6 +44,9 @@
             </div>
         </div>
         <div style="height:80vh; position: relative;" id="map"></div>
+        <div style="height:10vh">
+                <h2 style="color:white; font-size:4vh" class="center">ACM Cache</h2>
+        </div>
 
 <script>
 var college_map;
@@ -58,8 +61,7 @@ function initMap() {
 	college_map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 17,
         center: LatLng,
-        disableDefaultUI: true,
-        styles :mapstyle
+        disableDefaultUI: true
 	});
 	directionsDisplay = new google.maps.DirectionsRenderer();
 	directionsService = new google.maps.DirectionsService();
@@ -84,7 +86,7 @@ function initMap() {
             };
 
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
+            infoWindow.setContent('You are here.');
             infoWindow.open(map);
             map.setCenter(pos);
           }, function() {

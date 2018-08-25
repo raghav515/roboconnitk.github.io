@@ -16,12 +16,36 @@
         margin: 0;
         padding: 0;
       }
+
+      .search-bar{
+        position:absolute 1vw; z-index: 999; margin: 3vw; background-color: white;
+        border-radius: 10px;
+      }
+
+      
     </style>
-	<script src="descpdata.json" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+    
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="descpdata.json" type="text/javascript"></script>
+	<script src="mapstyle.json" type="text/javascript"></script>
+    
   </head>
   <body>
-    <div id="map"></div>
-    <script>
+      <div class="container search-bar" >
+
+        <div class="input-field col s12 fields">
+                <input type="text" id="autocomplete-input-search" class="autocomplete">
+                <label for="autocomplete-input">Search</label>
+            </div>
+        </div>
+        <div style="height:80vh; position: relative;" id="map"></div>
+
+<script>
 var college_map;
 var directionsDisplay;
 var directionsService;
@@ -33,7 +57,9 @@ function initMap() {
 	var LatLng = data[0]['coords'];
 	college_map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 17,
-		center: LatLng
+        center: LatLng,
+        disableDefaultUI: true,
+        styles :mapstyle
 	});
 	directionsDisplay = new google.maps.DirectionsRenderer();
 	directionsService = new google.maps.DirectionsService();
@@ -46,7 +72,9 @@ function initMap() {
 			title: data[i]['name']
 		});
 		all_markers.push(marker);
-		var infoWindow = new google.maps.InfoWindow();
+		var infoWindow = new google.maps.InfoWindow({
+            maxWidth:200,
+        });
 		google.maps.event.addListener(marker, 'click', (function(marker, i) {
 			return function() {
 				infoWindow.setContent(data[i]['cont']);
@@ -56,6 +84,28 @@ function initMap() {
 		);
 	}
 }
+
+$(document).ready( function() {
+	$('#autocomplete-input-search').autocomplete({
+		data: getAllNames(data),
+		limit:5,
+		onAutocomplete:function(val){
+			selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
+			new google.maps.event.trigger(selectedMarker, 'click');
+		}
+		
+	});
+});
+
+
+function getAllNames(data){
+	return data.reduce(function(accumulator, currentDatum){
+		accumulator[currentDatum.name] = null;
+		return accumulator;
+	},{});
+}
+
+
     </script>
 
 

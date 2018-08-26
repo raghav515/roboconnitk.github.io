@@ -4,7 +4,7 @@ nav {
 }
 
 .acm-logo {
-	height: 60px;
+	height: 8vh;
 }
 
 #place-tags {
@@ -89,4 +89,8 @@ html, body {
 	.des-line {
 		margin-bottom: 0px !important;
 	}
+}
+
+.chip:hover{
+background-color: #80D1FF;
 }

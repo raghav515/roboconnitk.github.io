@@ -4,12 +4,12 @@ var directionsService;
 var from = null;
 var to   = null;
 var all_markers = [];
-
 function initMap() {
 	var LatLng = data[0]['coords'];
 	college_map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 17,
-		center: LatLng
+        center: LatLng,
+        disableDefaultUI: true
 	});
 	directionsDisplay = new google.maps.DirectionsRenderer();
 	directionsService = new google.maps.DirectionsService();
@@ -19,10 +19,12 @@ function initMap() {
 		var marker = new google.maps.Marker({
 			position: data[i]['coords'],
 			map: college_map,
-			title: data[i]['name']
+            title: data[i]['name'],
 		});
 		all_markers.push(marker);
-		var infoWindow = new google.maps.InfoWindow();
+		var infoWindow = new google.maps.InfoWindow({
+            maxWidth:200,
+        });
 		google.maps.event.addListener(marker, 'click', (function(marker, i) {
 			return function() {
 				infoWindow.setContent(data[i]['cont']);
@@ -30,9 +32,8 @@ function initMap() {
 			}
 		})(marker, i)
 		);
-	}
+    }
 
-	
 }
 
 $(document).ready( function() {
@@ -45,7 +46,17 @@ $(document).ready( function() {
 		}
 	});
 
+	$('a[href^="#"]').on('click', function(event) {
+		var target = $(this.getAttribute('href'));
+		if( target.length ) {
+			event.preventDefault();
+			$('html, body').stop().animate({
+				scrollTop: target.offset().top
+			}, 1000);
+		}
+	});
 
+	
 	$('#autocomplete-input-directions-from').autocomplete({
 		data: getAllNames(data),
 		limit:5,
@@ -119,6 +130,7 @@ $(document).ready( function() {
 	}
 	else {
 		$('.row #map').css('height', parseInt($(window).height() - $('header').height()) + "px");
+
 	}
 });
 

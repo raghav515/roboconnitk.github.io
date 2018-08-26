@@ -27,9 +27,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="descpdata.json" type="text/javascript"></script>
 	<script src="mapstyle.json" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
     
   </head>
-  <body style="background-color: #80D1FF;">
+  <body>
         
         <div class="search-bar" style="padding:0 5px 0 5px">
             <div class="input-field col s12 fields">
@@ -37,87 +38,29 @@
                 <label for="autocomplete-input">Search</label>
             </div>
         </div>
-        <div style="height:90vh; position: fixed" id="map"></div>
+        <div style="height:90vh; position: relative" id="map"></div>
 
-        <nav>
-            <div style="height:10vh; background-color: white">
-                <a href="https://nitk.acm.org/" class="acm-logo" target="_blank"><img class="acm-logo" src="logo.png"></a>
+        <div style="background-color:#80D1FF; height:10vh;">
+            <a style=" float:left; margin: 1vh" href="https://nitk.acm.org/" target="_blank"><img class="acm-logo" src="logo.png"></a>
+            <p style="float:left; margin: 2vh 0 0 20vw; font-size: 4vh;top:0;    color: white">TRAILS</p>
+            <a style=" float:right; margin: 1vh" href="#bottom"><img class="acm-logo" src="directions.png"></a>
+
+        </div>
+
+        <div class="row s12">
+                    <h4 class="dir-heading center"><i class="material-icons prefix">directions</i>&nbsp;Directions</h4>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">directions_walk</i>
+                        <input type="text" id="autocomplete-input-directions-from" class="autocomplete">
+                        <label for="autocomplete-input-directions-from">From</label>
+                    </div>
+                    <div id="bottom" class="input-field col s12 fields">
+                        <i class="material-icons prefix"></i>
+                        <input type="text" id="autocomplete-input-directions-to" class="autocomplete" disabled>
+                        <label for="autocomplete-input-directions-to">To</label>
+                    </div>
             </div>
-        </nav>
                     
-<script>
-var college_map;
-var directionsDisplay;
-var directionsService;
-var from = null;
-var to   = null;
-var all_markers = [];
-
-function initMap() {
-	var LatLng = data[0]['coords'];
-	college_map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 17,
-        center: LatLng,
-        disableDefaultUI: true
-	});
-	directionsDisplay = new google.maps.DirectionsRenderer();
-	directionsService = new google.maps.DirectionsService();
-	directionsDisplay.setMap(college_map);
-	
-	for (var i = 0; i < data.length; i++) {
-		var marker = new google.maps.Marker({
-			position: data[i]['coords'],
-			map: college_map,
-            title: data[i]['name'],
-            icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-		});
-		all_markers.push(marker);
-		var infoWindow = new google.maps.InfoWindow({
-            maxWidth:200,
-        });
-		google.maps.event.addListener(marker, 'click', (function(marker, i) {
-			return function() {
-				infoWindow.setContent(data[i]['cont']);
-				infoWindow.open(map, marker);
-			}
-		})(marker, i)
-		);
-    }
-
-}
-
-
-
-$(document).ready( function() {
-	$('#autocomplete-input-search').autocomplete({
-		data: getAllNames(data),
-		limit:5,
-		onAutocomplete:function(val){
-			selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
-			new google.maps.event.trigger(selectedMarker, 'click');
-		}
-		
-	});
-});
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map);
-      }
-function getAllNames(data){
-	return data.reduce(function(accumulator, currentDatum){
-		accumulator[currentDatum.name] = null;
-		return accumulator;
-	},{});
-}
-
-
-    </script>
-
-
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0FMobQw8jMaZHvsHJyPqzUMSkmfyEsWs&callback=initMap"
 async defer></script>
   </body>

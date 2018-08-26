@@ -91,7 +91,7 @@ $(document).ready( function() {
 	})
 
 	for (var x = 0; x < data.length; x++) {
-		$("#place-tags").append("<div class=\"chip\">" + data[x]["name"] + "</div>")
+		$("#place-tags").append("<div class=\"chip\" style=\"cursor:pointer\">" + data[x]["name"] + "</div>")
 	}
 
 

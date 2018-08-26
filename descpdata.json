@@ -690,17 +690,17 @@ var data = [
 		"</div>"
 	},
 	{
-		"name": "Fresh and honest",
+		"name": "Fresh And Honest",
 		"coords": {
-			"lat": 13.012858,
-			"lng": 74.794364
+			"lat": 13.01282928,
+			"lng": 74.79401474
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Fresh and honest</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Exams tomorrow? And sleep baulking you down? Or just casually feel like sipping something as you read your favourite book on your phone? For all the coffee lovers out there, F&H is the place to go. There are two outlets of F&H, one outside the GB and one in front of the 4th block boys hostel. </p>"+
+		"<p>Exams tomorrow? And sleep baulking you down? Or just casually feel like sipping something as you read your favourite book on your phone? For all the coffee lovers out there, F&H is the place to go.</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -957,6 +957,127 @@ var data = [
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Department of Electrical and Electronics</h4>"+
 		"<div id=\"bodyContent\">"+
 		"<p>B Venkatesa Perumal<br>Head of the Department<br>Department of Electrical and Electronics,NITK,Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-0824-2473465<br>Email:bvperumal@nitk.ac.in</p>"+
+		"</div>"+
+		"</div>"
+
+	},
+	{
+		"name": "Third Block",
+		"coords": {
+			"lat": 13.00651161,
+			"lng": 74.79654459
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Third Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Houses the Third Block NC, a veg NC. Home to some second year students. It does not have a mess.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Fourth Block",
+		"coords": {
+			"lat": 13.00596018,
+			"lng": 74.79567351
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Fourth Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Home to not just some second years, but to the Fourth Block Mess, the best non veg mess on campus.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Fifth Block",
+		"coords": {
+			"lat": 13.00542218,
+			"lng": 74.79474992
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Fifth Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Single occupancy rooms for second years and MTech students. Also houses the First Block Mess, a non veg mess </p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Mega Tower -1,2,3",
+		"coords": {
+			"lat": 13.00697914,
+			"lng": 74.79508138
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Mega Tower -1,2,3</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Home to the third and fourth years.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Mega Mess",
+		"coords": {
+			"lat": 13.00756192,
+			"lng": 74.79532278
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Mega Mess</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>The biggest mess in NITK, it is also a veg mess.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Eighth Block",
+		"coords": {
+			"lat": 13.0074992,
+			"lng": 74.79406345
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Eighth Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Houses Eighth Block Mess And Night Canteen, a very good veg mess. It is also the only mess that serves chaats.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": " Mech workshops",
+		"coords": {
+			"lat": 13.00991175,
+			"lng": 74.79525728
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\"> Mech workshops</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>It has two machine shops, a fitting shop and a carpentry shop. One can oft find tired, despondent souls scurrying away after three hours of hard work.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Fresh And Honest",
+		"coords": {
+			"lat": 13.00600221,
+			"lng": 74.79501875
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Fresh And Honest</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>A counterpart to the one near the GB, you can get biscuits, cup noodles, even soup. </p>"+
 		"</div>"+
 		"</div>"
 	}

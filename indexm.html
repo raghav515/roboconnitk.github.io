@@ -67,11 +67,14 @@ function initMap() {
 	
 	for (var i = 0; i < data.length; i++) {
 		var marker = new google.maps.Marker({
-			position: data[i]['coords'],
-			map: college_map,
+			position: data[i]['coords'] ,
+            map: college_map,
+            animation: google.maps.Animation.DROP,
             title: data[i]['name'],
-            icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-		});
+        });
+        
+        marker.addListener('click', toggleBounce);
+
 		all_markers.push(marker);
 		var infoWindow = new google.maps.InfoWindow({
             maxWidth:200,
@@ -88,6 +91,14 @@ function initMap() {
 		{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 }
 
+
+      function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      }
 
 
 $(document).ready( function() {

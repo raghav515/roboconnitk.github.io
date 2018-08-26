@@ -40,7 +40,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Underpass</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>SAn alternate way to reach the other side of campus. A rabbit hole, if you will.</p>"+
+		"<p>An alternate way to reach the other side of campus. A rabbit hole, if you will.</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -625,8 +625,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Volleyball Court</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p> Wanna see people smashing their opponents to smithereens? Wanna see some smash-blocking which will make you go &quot;oooooh&quot;? Or are you gonna be brave enough to dive head-first straight into the action? Head over.
-</p>"+
+		"<p> Wanna see people smashing their opponents to smithereens? Wanna see some smash-blocking which will make you go &quot;oooooh&quot;? Or are you gonna be brave enough to dive head-first straight into the action? Head over.</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -731,8 +730,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Nescafe</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Located in between the first and second block, this is the place to go if you fancy a nice plate of hot Maggi. They do take some time to prepare it, so plan accordingly. Standard Nestle items like coffee and other drinks, ice creams, chocolates and other packaged products are available here.
- </p>"+
+		"<p>Located in between the first and second block, this is the place to go if you fancy a nice plate of hot Maggi. They do take some time to prepare it, so plan accordingly. Standard Nestle items like coffee and other drinks, ice creams, chocolates and other packaged products are available here.</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -931,10 +929,6 @@ var data = [
 		// "<p>G. Ram Mohana Reddy<br>Head of the Department<br>Department ofInformation Technology,NITK,Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-0824-2473056<br>Email: profgrmreddy@nitk.ac.in</p>"+
 		"</div>"+
 		"</div>"
-	},
-	
-	
+	}
+	];
 
-
-
-];

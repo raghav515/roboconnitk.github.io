@@ -23,7 +23,8 @@ function initMap() {
 		});
 		all_markers.push(marker);
 		var infoWindow = new google.maps.InfoWindow({
-            maxWidth:200,
+			maxWidth:200,
+			zIndex:500,
         });
 		google.maps.event.addListener(marker, 'click', (function(marker, i) {
 			return function() {

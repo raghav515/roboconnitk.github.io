@@ -896,7 +896,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Crumbs</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Your friend's birthday coming up? Need to buy a cake. This is the nearest place to buy one(YUMMY).</p>"+
+		"<p>Your friend's birthday coming up? Need to buy a cake. This is the nearest place to buy one(YUMMY).<br>Contact : +91 824 247 5080</p>"+
 		"</div>"+
 		"</div>"
 	},

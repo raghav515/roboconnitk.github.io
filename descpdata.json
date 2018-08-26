@@ -960,6 +960,96 @@ var data = [
 		"</div>"+
 		"</div>"
 
+	},
+	{
+		"name": "Third Block",
+		"coords": {
+			"lat": 13.00651161,
+			"lng": 74.79654459
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Third Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Houses the Third Block NC, a veg NC. Home to some second year students. It does not have a mess.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Fourth Block",
+		"coords": {
+			"lat": 13.00596018,
+			"lng": 74.79567351
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Fourth Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Home to not just some second years, but to the Fourth Block Mess, the best non veg mess on campus.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Fifth Block",
+		"coords": {
+			"lat": 13.00542218,
+			"lng": 74.79474992
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Fifth Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Single occupancy rooms for second years and MTech students. Also houses the First Block Mess, a non veg mess </p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Mega Tower -1,2,3",
+		"coords": {
+			"lat": 13.00697914,
+			"lng": 74.79508138
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Mega Tower -1,2,3</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Home to the third and fourth years.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Mega Mess",
+		"coords": {
+			"lat": 13.00756192,
+			"lng": 74.79532278
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Mega Mess</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>The biggest mess in NITK, it is also a veg mess.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Eighth Block",
+		"coords": {
+			"lat": 13.0074992,
+			"lng": 74.79406345
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Eighth Block</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Houses Eighth Block Mess And Night Canteen, a very good veg mess. It is also the only mess that serves chaats.</p>"+
+		"</div>"+
+		"</div>"
 	}
 	];
 

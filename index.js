@@ -31,6 +31,9 @@ function initMap() {
 		})(marker, i)
 		);
 	}
+
+	var markerCluster = new MarkerClusterer(college_map, all_markers,
+		{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 }
 
 $(document).ready( function() {
@@ -41,7 +44,6 @@ $(document).ready( function() {
 			selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
 			new google.maps.event.trigger(selectedMarker, 'click');
 		}
-		
 	});
 
 

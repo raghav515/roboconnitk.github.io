@@ -36,17 +36,15 @@
     
   </head>
   <body style="background-color: #80D1FF;">
-      <div class="search-bar" >
-
-        <div class="input-field col s12 fields">
+        
+        <div class="search-bar" >
+            <div class="input-field col s12 fields">
                 <input type="text" id="autocomplete-input-search" class="autocomplete">
                 <label for="autocomplete-input">Search</label>
             </div>
         </div>
         <div style="height:80vh; position: relative;" id="map"></div>
-        <div style="height:10vh">
-                <h2 style="color:white; font-size:4vh" class="center">ACM Cache</h2>
-        </div>
+        
 
 <script>
 var college_map;
@@ -78,24 +76,6 @@ function initMap() {
 		var infoWindow = new google.maps.InfoWindow({
             maxWidth:200,
         });
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('You are here.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
 		google.maps.event.addListener(marker, 'click', (function(marker, i) {
 			return function() {
 				infoWindow.setContent(data[i]['cont']);
@@ -103,7 +83,9 @@ function initMap() {
 			}
 		})(marker, i)
 		);
-	}
+    }
+    var markerCluster = new MarkerClusterer(college_map, all_markers,
+		{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 }
 
 
@@ -136,6 +118,7 @@ function getAllNames(data){
 
 
     </script>
+	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0FMobQw8jMaZHvsHJyPqzUMSkmfyEsWs&callback=initMap"

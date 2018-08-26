@@ -56,7 +56,7 @@ $(document).ready( function() {
 		}
 	});
 
-	
+
 	$('#autocomplete-input-directions-from').autocomplete({
 		data: getAllNames(data),
 		limit:5,
@@ -126,9 +126,12 @@ $(document).ready( function() {
 
 	if (isMobile.any()) {
 		console.log($(window).height());
-		$('.row #map').css('height', parseInt($(window).height() - $('header').height() - $('.p-left').height() - 25) + "px");
+		$('#map').css('height', parseInt($(window).height() - $('#navbar').height() )+ "px");
+		$('.row #map').css('height', parseInt($(window).height() - $('#header').height()  - 25) + "px");
+
 	}
 	else {
+		$('#map').css('height', parseInt($(window).height() - $('#navbar').height() )+ "px");
 		$('.row #map').css('height', parseInt($(window).height() - $('header').height()) + "px");
 
 	}

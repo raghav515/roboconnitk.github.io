@@ -10,15 +10,9 @@
       #map {
         height: 100%;
       }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
 
       .search-bar{
-        position:absolute 1vw; z-index: 999; margin: 3vw; background-color: white;
+        position: fixed; z-index: 999; margin: 3vw;width: 70vw; background-color: white;
         border-radius: 10px;
       }
 
@@ -37,15 +31,20 @@
   </head>
   <body style="background-color: #80D1FF;">
         
-        <div class="search-bar" >
+        <div class="search-bar" style="padding:0 5px 0 5px">
             <div class="input-field col s12 fields">
                 <input type="text" id="autocomplete-input-search" class="autocomplete">
                 <label for="autocomplete-input">Search</label>
             </div>
         </div>
-        <div style="height:80vh; position: relative;" id="map"></div>
-        
+        <div style="height:90vh; position: fixed" id="map"></div>
 
+        <nav>
+            <div style="height:10vh; background-color: white">
+                <a href="https://nitk.acm.org/" class="acm-logo" target="_blank"><img class="acm-logo" src="logo.png"></a>
+            </div>
+        </nav>
+                    
 <script>
 var college_map;
 var directionsDisplay;

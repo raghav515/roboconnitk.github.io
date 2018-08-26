@@ -83,6 +83,15 @@ $(document).ready( function() {
 		$("#place-tags").append("<div class=\"chip\">" + data[x]["name"] + "</div>")
 	}
 
+
+
+
+	$(".chip").on('click', function(event){
+		val=$(this).text();
+		selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
+		new google.maps.event.trigger(selectedMarker, 'click');
+	});
+
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);

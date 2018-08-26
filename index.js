@@ -31,6 +31,8 @@ function initMap() {
 		})(marker, i)
 		);
 	}
+
+	
 }
 
 $(document).ready( function() {
@@ -41,7 +43,6 @@ $(document).ready( function() {
 			selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
 			new google.maps.event.trigger(selectedMarker, 'click');
 		}
-		
 	});
 
 
@@ -81,6 +82,15 @@ $(document).ready( function() {
 	for (var x = 0; x < data.length; x++) {
 		$("#place-tags").append("<div class=\"chip\">" + data[x]["name"] + "</div>")
 	}
+
+
+
+
+	$(".chip").on('click', function(event){
+		val=$(this).text();
+		selectedMarker = all_markers.filter(function(marker){ return marker.title===val?true: false;})[0];
+		new google.maps.event.trigger(selectedMarker, 'click');
+	});
 
 	var isMobile = {
 		Android: function() {

@@ -265,7 +265,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">NITK Gym</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Wanna bulk up and work out? Wanna gain discipline? Just show up at the gym. The trainers at the gym will ensure the discipline.</p>"+
+		"<p>Heaven for the disciplined. For others, their semester will be the sum total of days on which going to the gym from the next day is decided.<br>Timings : 5.30 AM - 8.00 AM & 4.30 PM - 7.30 PM<br> Sunday Holiday</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -325,7 +325,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Academics</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Ground floor<br>Main seminar hall and ISTE seminar hall: Taking part in a competition and have forgotten the venue? Want to attend a talk on something but have forgotten where it’s being held?These halls would be the first places to check.<br><br>Cash section (timings 9:15-12:15 and 1:45-4:00):Have any academics related cash dealings to be done, this is where you should head.<br><br>First floor:<br>Registrar office(K Rabindranath): Have some student records related work? Better head to this office after filling your form because you definitely need a signature from the registrar.<br>Phone: +91-824-2473006 / +91-824-2474068<br>Email: rnath@nitk.ac.in, registrar@nitk.ac.in<br>Prof. S.M.Hegde<br>Office of DSW: The college official in charge of welfare and easy life of students <br>Phone: +91-824-2473004, 91-824-2473252<br>Email: smhegde@nitk.ac.in, smhegde59@gmail.com<br>Prof. Ananthanarayana V. S<br>Office of Dean for research and consultancy :<br>Phone: +91-824-247067, +91-824-2473004<br>Email: dean.rc@nitk.edu.in  Prof.Uma Maheshwar Rao<br>Office of the Director<br>Email: director@nitk.ac.in<br>A U Ravi Shankar<br>Dean Planning and Development<br>Phone: +91-824-2474039<br>mail: aurshankar@gmail.com,aur@nitk.ac.in <br>Ashok Babu T P<br>Dean Faculty Welfare<br>Phone: +91-824-2474038<br>Email: tpashok@rediffmail.com<br>Prof.Katta Venkataramana<br>Office of the Academic Dean<br>Phone: +91-824-2474040<br>Email: deanacad@nitk.ac.in<br>Assistant Registrar (academic)<br>Kamlabh Kumar Singh<br>Phone: +91-824-2473099<br>Email: aracademic@nitk.ac.in<br><br>Second floor<br>Office of Assistant Registrar (Gaurav Choudary)<br>Phone: +91-824-2473990<br>Email: gaurav@nitk.ac.in<br>SC-ST cell<br>Room No.22, 2nd Floor, Main Building<br>Email: nitk.scst.cell [at] gmail.com<br>Phone: 0824-2474000, ext : 3024<br>Dr. P E Jagadeesh Babu<br>E-mail: jagadeesh_78@yahoo.com<br>Telephone: +91-824-2474000 Extn. 3640</p>"+
+		"<p>Ground floor<br>Main seminar hall and ISTE seminar hall: Taking part in a competition and have forgotten the venue? Want to attend a talk on something but have forgotten where it’s being held?These halls would be the first places to check.<br><br>Cash section (timings 9:15-12:15 and 1:45-4:00):Have any academics related cash dealings to be done, this is where you should head.<br><br>First floor:<br>Prof.Uma Maheshwar Rao<br>Office of the Director<br>Email: director@nitk.ac.in<br>Registrar office(K Rabindranath): Have some student records related work? Better head to this office after filling your form because you definitely need a signature from the registrar.<br>Phone: +91-824-2473006 / +91-824-2474068<br>Email: rnath@nitk.ac.in, registrar@nitk.ac.in<br>Prof. S.M.Hegde<br>Office of DSW: The college official in charge of welfare and easy life of students <br>Phone: +91-824-2473004, 91-824-2473252<br>Email: smhegde@nitk.ac.in, smhegde59@gmail.com<br>Prof. Ananthanarayana V. S<br>Office of Dean for research and consultancy :<br>Phone: +91-824-247067, +91-824-2473004<br>Email: dean.rc@nitk.edu.in  <br>A U Ravi Shankar<br>Dean Planning and Development<br>Phone: +91-824-2474039<br>mail: aurshankar@gmail.com,aur@nitk.ac.in <br>Ashok Babu T P<br>Dean Faculty Welfare<br>Phone: +91-824-2474038<br>Email: tpashok@rediffmail.com<br>Prof.Katta Venkataramana<br>Office of the Academic Dean<br>Phone: +91-824-2474040<br>Email: deanacad@nitk.ac.in<br>Assistant Registrar (academic)<br>Kamlabh Kumar Singh<br>Phone: +91-824-2473099<br>Email: aracademic@nitk.ac.in<br><br>Second floor<br>Office of Assistant Registrar (Gaurav Choudary)<br>Phone: +91-824-2473990<br>Email: gaurav@nitk.ac.in<br>SC-ST cell<br>Room No.22, 2nd Floor, Main Building<br>Email: nitk.scst.cell [at] gmail.com<br>Phone: 0824-2474000, ext : 3024<br>Dr. P E Jagadeesh Babu<br>E-mail: jagadeesh_78@yahoo.com<br>Telephone: +91-824-2474000 Extn. 3640</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -435,15 +435,15 @@ var data = [
 		"</div>"
 	},
 	{
-		"name": "Department of MME",
+		"name": "Department of Metallurgical and Materials Engineering",
 		"coords": {
-			"lat": 13.010538,
-			"lng": 74.795128
+			"lat": 13.01055136,
+			"lng": 74.79497973
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
 		"</div>"+
-		"<h4 id=\"firstHeading\" class=\"firstHeading\">Department of MME</h4>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Department of Metallurgical and Materials Engineering</h4>"+
 		"<div id=\"bodyContent\">"+
 		"<p>Dr. Udaya Bhat K<br>Head,Department of MME, NITK, Surathkal <br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line: Hot line: +91-0824-2474000 Extn. 3050<br>Email:headofmetallurgy@yahoo.com</p>"+
 		"</div>"+
@@ -482,8 +482,8 @@ var data = [
 	{
 		"name": "Department of Chemical Engineering",
 		"coords": {
-			"lat": 13.010636,
-			"lng": 74.795564
+			"lat": 13.01060362,
+			"lng": 74.79532305
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
@@ -580,15 +580,15 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Swimming Pool</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Dive in for a refreshing feel on a hot summer day. To register, you need to take a copy of your fee receipt/Admission slip and submit it at the swimming pool. You will be given a medical certificate, which you must get signed at the HCC and you're good to go.</p>"+
+		"<p>Dive in for a refreshing feel on a hot summer day. To register, you need to take a copy of your fee receipt/Admission slip and submit it at the swimming pool. You will be given a medical certificate, which you must get signed at the HCC and you're good to go. There are multiple slots of 45 mins each in the morning and evening. So do enquire to choose your perfect slot.</p>"+
 		"</div>"+
 		"</div>"
 	},
 	{
 		"name": "Sports complex",
 		"coords": {
-			"lat": 13.009240,
-			"lng": 74.797179
+			"lat": 13.00901473,
+			"lng": 74.79707752
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
@@ -602,8 +602,8 @@ var data = [
 	{
 		"name": "Basketball Court",
 		"coords": {
-			"lat": 13.011076,
-			"lng": 74.796891
+			"lat": 13.01083607,
+			"lng": 74.79684401
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
@@ -617,8 +617,8 @@ var data = [
 	{
 		"name": "Volleyball Court",
 		"coords": {
-			"lat": 13.010836,
-			"lng": 74.797764
+			"lat": 13.01085175,
+			"lng": 74.79736436
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
@@ -707,8 +707,8 @@ var data = [
 	{
 		"name": "Amul",
 		"coords": {
-			"lat": 13.008993,
-			"lng": 74.796839
+			"lat": 13.00897878,
+			"lng": 74.7967912
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
@@ -761,6 +761,51 @@ var data = [
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">SJA</h4>"+
 		"<div id=\"bodyContent\">"+
 		"<p>Being the primary auditorium of NITK, it hosts all major events. It's two golden rules- Shorts are a huge no-no, and ID cards are a must. But it's worth the AC, a much needed amenity in this Mangalore weather.<br>Films are shown on most Fridays, so kick back, relax and enjoy, amongst many other things, the film.</p>"+
+		"</div>"+
+		"</div>"
+	},
+    {
+		"name": "LHC-A/ATB",
+		"coords": {
+			"lat": 13.00952953,
+			"lng": 74.79386524
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">LHC-A/ATB</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Learning paradigm for one half of first years. An old building. You can hear years of experience if you listen close enough.</p>"+
+		"</div>"+
+		"</div>"
+	},
+    {
+		"name": "LHC-B/NTB",
+		"coords": {
+			"lat": 13.00932308,
+			"lng": 74.79447142
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">LHC-B/NTB</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>New kid on the block. Other paradigm of learning for first years. Be sure to check these rooms out during our fests as they host loads of exciting stuff.</p>"+
+		"</div>"+
+		"</div>"
+	},
+    {
+		"name": "SAC",
+		"coords": {
+			"lat": 13.01068725,
+			"lng": 74.79571466
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">SAC</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>NSome of your nights here in first year including all the DJ nights, the Incident special concerts and the ever resplendent New year's eve will be moments you will cherish forever.</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -914,21 +959,7 @@ var data = [
 		"<p>B Venkatesa Perumal<br>Head of the Department<br>Department of Electrical and Electronics,NITK,Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-0824-2473465<br>Email:bvperumal@nitk.ac.in</p>"+
 		"</div>"+
 		"</div>"
-	},
-	{
-		"name": "NITK STEP",
-		"coords": {
-			"lat": 13.01430695,
-			"lng": 74.79159928
-		},
-		"cont": "<div id=\"content\">"+
-		"<div id=\"siteNotice\">"+
-		"</div>"+
-		"<h4 id=\"firstHeading\" class=\"firstHeading\">NITK STEP</h4>"+
-		"<div id=\"bodyContent\">"+
-		// "<p>G. Ram Mohana Reddy<br>Head of the Department<br>Department ofInformation Technology,NITK,Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-0824-2473056<br>Email: profgrmreddy@nitk.ac.in</p>"+
-		"</div>"+
-		"</div>"
+
 	}
 	];
 

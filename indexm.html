@@ -67,14 +67,11 @@ function initMap() {
 	
 	for (var i = 0; i < data.length; i++) {
 		var marker = new google.maps.Marker({
-			position: data[i]['coords'] ,
-            map: college_map,
-            animation: google.maps.Animation.DROP,
+			position: data[i]['coords'],
+			map: college_map,
             title: data[i]['name'],
-        });
-        
-        marker.addListener('click', toggleBounce);
-
+            icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+		});
 		all_markers.push(marker);
 		var infoWindow = new google.maps.InfoWindow({
             maxWidth:200,
@@ -87,18 +84,9 @@ function initMap() {
 		})(marker, i)
 		);
     }
-    var markerCluster = new MarkerClusterer(college_map, all_markers,
-		{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
 }
 
-
-      function toggleBounce() {
-        if (marker.getAnimation() !== null) {
-          marker.setAnimation(null);
-        } else {
-          marker.setAnimation(google.maps.Animation.BOUNCE);
-        }
-      }
 
 
 $(document).ready( function() {
@@ -129,7 +117,6 @@ function getAllNames(data){
 
 
     </script>
-	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0FMobQw8jMaZHvsHJyPqzUMSkmfyEsWs&callback=initMap"

@@ -798,8 +798,8 @@ var data = [
 	{
 		"name": "3rd Block Night Canteen",
 		"coords": {
-			"lat": 13.008096,
-			"lng": 74.796137
+			"lat": 13.00636902,
+			"lng": 74.79654637
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
@@ -828,8 +828,8 @@ var data = [
 	{
 		"name": "7th Block Night Canteen",
 		"coords": {
-			"lat": 13.007849,
-			"lng": 74.796301
+			"lat": 13.00798496,
+			"lng": 74.79612356
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+

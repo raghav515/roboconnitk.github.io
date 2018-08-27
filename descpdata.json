@@ -115,7 +115,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">HCC</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Strategically placed near the NITK Main ground, the HCC is your first 'point-of-care’ for any and every health issue, be it a bad cold, or god forbid what else. Not to mention, all your treatment and medical expenses are covered under NITK Insurance. So, don’t waste time if you’ve got a case of the flu.<br>Also, they have an Ambulance that will come pick you up from anywhere in campus!<br>Timings:<br>Mon-Fri: 9.00 AM - 1.00 PM & 2.00 PM - 6.00 PM <br> Sat: 9.00 AM - 1.00 PM & 2.00 PM - 4.00 PM<br>Sun: 9.00 AM t- 12 Noon</p>"+
+		"<p>Strategically placed near the NITK Main ground, the HCC is your first 'point-of-care’ for any and every health issue, be it a bad cold, or god forbid what else. Not to mention, all your treatment and medical expenses are covered under NITK Insurance. So, don’t waste time if you’ve got a case of the flu.<br>Also, they have an Ambulance that will come pick you up from anywhere in campus!<br>Timings:<br>Mon-Fri: 9.00 AM - 1.00 PM & 2.00 PM - 6.00 PM <br> Sat: 9.00 AM - 1.00 PM & 2.00 PM - 4.00 PM<br>Sun: 9.00 AM - 12 Noon</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -190,12 +190,12 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Ramesh Tailor</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>If it’s just a tailor that you want, you have one in Mr. Ramesh.<br>Ph: 8710932817<br>Timings:Weekdays:8:30 A.M.-10:30 P.M. Sat-Sun-Closed.<br> Location: Nandini Circle (Next to Crumbz)</p>"+
+		"<p>If it’s just a tailor that you want, you have one in Mr. Ramesh.<br>Ph: 8710932817<br>Timings:Weekdays:8:30 A.M.-10:30 P.M. Sat-Sun-Closed.<br> Location: Nandini Circle (Next to Crumbs)</p>"+
 		"</div>"+
 		"</div>"
 	},
 	{
-		"name": "Mudrika",
+		"name": "mudrikaa",
 		"coords": {
 			"lat": 13.008535,
 			"lng": 74.794168
@@ -203,9 +203,9 @@ var data = [
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
 		"</div>"+
-		"<h4 id=\"firstHeading\" class=\"firstHeading\">Mudrika</h4>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">mudrikaa</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>Missed a lot of notes in the classes you slept or bunked? Need to print/bind an assignment? Need to get Photostats of &quot;Important Documents&quot;?<br>Need copies of your Passport photo? Mudrika has been the prefered choice for NITKians for quite a while now.<br>Mudrika Timings: 9:00 AM - 1:00 PM, 1:30 PM - 5:45 PM<br>Contact: mudrikaa.nitk@gmail.com</p>"+
+		"<p>Missed a lot of notes in the classes you slept or bunked? Need to print/bind an assignment? Need to get Photostats of &quot;Important Documents&quot;?<br>Need copies of your Passport photo? mudrikaa has been the prefered choice for NITKians for quite a while now.<br>mudrikaa Timings: 9:00 AM - 1:00 PM, 1:30 PM - 5:45 PM<br>Contact: mudrikaaa.nitk@gmail.com</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -525,36 +525,6 @@ var data = [
 		"</div>"
 	},
 	{
-		"name": "Department of Electrical and Electronics Engineering",
-		"coords": {
-			"lat": 13.010905,
-			"lng": 74.792613
-		},
-		"cont": "<div id=\"content\">"+
-		"<div id=\"siteNotice\">"+
-		"</div>"+
-		"<h4 id=\"firstHeading\" class=\"firstHeading\">Department of Electrical and Electronics Engineering</h4>"+
-		"<div id=\"bodyContent\">"+
-		"<p>B  Venkatesa Permul<br>Associate Professor and Head of the Department<br>Department of Electrical and Electronics Engineering , NITK , Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-824-2473045<br>Fax:+91-824-2474039<br>Email:hodee@nitk.ac.in</p>"+
-		"</div>"+
-		"</div>"
-	},
-	{
-		"name": "Department of Information Technology",
-		"coords": {
-			"lat": 13.010905,
-			"lng": 74.792613
-		},
-		"cont": "<div id=\"content\">"+
-		"<div id=\"siteNotice\">"+
-		"</div>"+
-		"<h4 id=\"firstHeading\" class=\"firstHeading\">Department of Information Technology</h4>"+
-		"<div id=\"bodyContent\">"+
-		"<p>G. Ram Mohana Reddy<br>Professor and Head<br>Department of Information Technology,NITK,Surathkal<br>P. O. Srinivasnagar, Mangalore - 575 025<br>Karnataka, India.<br>Hot line:+91-824-2474056<br>Email: infotech@nitk.ac.in</p>"+
-		"</div>"+
-		"</div>"
-	},
-	{
 		"name": "Department of Mining Engineering",
 		"coords": {
 			"lat": 13.01173628,
@@ -735,7 +705,7 @@ var data = [
 		"</div>"
 	},
 	{
-		"name": "Ocean pearl",
+		"name": "Ocean Pearl",
 		"coords": {
 			"lat": 13.008463,
 			"lng": 74.795179
@@ -743,7 +713,7 @@ var data = [
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
 		"</div>"+
-		"<h4 id=\"firstHeading\" class=\"firstHeading\">Ocean pearl</h4>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Ocean Pearl</h4>"+
 		"<div id=\"bodyContent\">"+
 		"<p>The only canteen in the campus that operates during the day, this place has a lot of options to choose from for a proper meal within reasonable prices. Serves pure veg food.<br>The North Indian Thali available only in the night is worth every penny spent on it.</p>"+
 		"</div>"+

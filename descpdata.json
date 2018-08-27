@@ -821,7 +821,7 @@ var data = [
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Girls Block Night Canteen</h4>"+
 		"<div id=\"bodyContent\">"+
 		// "<p>Known for the best chicken tikka biryani you’ll ever have.  Plus they offer a great variety of dosas for a quick snack.<br>Contact: 7760921064,7760921074</p>"+
-		"<p>Known for the best chicken tikka biryani you’ll ever have. Plus they offer a great variety of dosas for a quick snack.The Belgian choco-chip milkshake is something you should not miss. Mess has not started yet. So phone nos not available. </p>"+
+		"<p>Known for the best chicken tikka biryani you’ll ever have. Plus they offer a great variety of dosas for a quick snack.The Belgian choco-chip milkshake is something you should not miss. Canteen isn't open yet. So phone nos not available. </p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -836,7 +836,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">3rd Block Night Canteen</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>A vegetarians paradise. Cheap and quick. Famous for their vada pavs and chole bhature. <br>Contact: 9740687393,9902487595</p>"+
+		"<p>A vegetarians paradise. Cheap and quick. Famous for their vada pavs and chole bhature.  <br>Canteen isn't open yet. So phone nos not available.</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -866,7 +866,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">7th Block Night Canteen</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p> Are you finding it hard to survive without chicken? Check out the 7th block for amazing shawarmas, biryani, chicken curries and much more.<br>Delivery does take time, so order accordingly. The food is mostly worth the wait.<br>As of now, it's the only functioning Night Canteen, i.e. the only source of good food on campus after 9<br>Contact:8861995818,7090689469</p>"+
+		"<p> Are you finding it hard to survive without chicken? Check out the 7th block for amazing shawarmas, biryani, chicken curries and much more.<br>Delivery does take time, so order accordingly. The food is mostly worth the wait.<br>Canteen isn't open yet. So phone nos not available.</p>"+
 		"</div>"+
 		"</div>"
 	},

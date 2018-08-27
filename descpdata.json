@@ -881,7 +881,22 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Fruit shop</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<pMess food too boring? Diet conscious and scared of eating outside? Wanna stay healthy? This is the place for you. P.S. Selfies taken here have been proven to make mothers happy.</p>"+
+		"<p>Mess food too boring? Diet conscious and scared of eating outside? Wanna stay healthy? This is the place for you. P.S. Selfies taken here have been proven to make mothers happy.</p>"+
+		"</div>"+
+		"</div>"
+	},
+	{
+		"name": "Crumbs",
+		"coords": {
+			"lat": 13.01276183,
+			"lng": 74.79643798
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Crumbs</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>Your friend's birthday coming up? Need to buy a cake. This is the nearest place to buy one(YUMMY).<br>Contact : +91 824 247 5080</p>"+
 		"</div>"+
 		"</div>"
 	},

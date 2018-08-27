@@ -190,7 +190,7 @@ var data = [
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">Ramesh Tailor</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>If it’s just a tailor that you want, you have one in Mr. Ramesh.<br>Ph: 8710932817<br>Timings:Weekdays:8:30 A.M.-10:30 P.M. Sat-Sun-Closed.<br> Location: Nandini Circle (Next to Crumbs)</p>"+
+		"<p>If it’s just a tailor that you want, you have one in Mr. Ramesh.<br>Ph: 8710932817<br>Timings:Weekdays:8:30 A.M.-10:30 P.M. Sat-Sun-Closed.<br> Location: Nandini Circle (Next to Crumbz)</p>"+
 		"</div>"+
 		"</div>"
 	},
@@ -856,7 +856,7 @@ var data = [
 		"</div>"
 	},
 	{
-		"name": "Crumbs",
+		"name": "Crumbz",
 		"coords": {
 			"lat": 13.01276183,
 			"lng": 74.79643798
@@ -864,7 +864,7 @@ var data = [
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
 		"</div>"+
-		"<h4 id=\"firstHeading\" class=\"firstHeading\">Crumbs</h4>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">Crumbz</h4>"+
 		"<div id=\"bodyContent\">"+
 		"<p>Your friend's birthday coming up? Need to buy a cake. This is the nearest place to buy one(YUMMY).<br>Contact : +91 824 247 5080</p>"+
 		"</div>"+

@@ -1069,16 +1069,15 @@ var data = [
 	{
 		"name": "NITK STEP",
 		"coords": {
-			"lat": 13.01522336,
-			"lng": 74.79153235
+			"lat": 13.0151706,
+			"lng": 74.79146749
 		},
 		"cont": "<div id=\"content\">"+
 		"<div id=\"siteNotice\">"+
 		"</div>"+
 		"<h4 id=\"firstHeading\" class=\"firstHeading\">NITK STEP</h4>"+
 		"<div id=\"bodyContent\">"+
-		"<p>It's a entrepreneurship development and an incubation centre. Home to NITK's entrepreneurs, it gives start ups an office to bring their ideas to life.
-		To know more, visit http://www.nitkstep.org </p>"+
+		"<p>It's a entrepreneurship development and an incubation centre. Home to NITK's entrepreneurs, it gives start ups an office to bring their ideas to life.<br>To know more, visit" +  "<a href=\"http://www.nitkstep.org\"> http://www.nitkstep.org</a></p>"+
 		"</div>"+
 		"</div>"
 	}

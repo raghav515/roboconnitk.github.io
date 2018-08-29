@@ -1065,6 +1065,22 @@ var data = [
 		"<p>A counterpart to the one near the GB, you can get biscuits, cup noodles, even soup. </p>"+
 		"</div>"+
 		"</div>"
+	},
+	{
+		"name": "NITK STEP",
+		"coords": {
+			"lat": 13.01522336,
+			"lng": 74.79153235
+		},
+		"cont": "<div id=\"content\">"+
+		"<div id=\"siteNotice\">"+
+		"</div>"+
+		"<h4 id=\"firstHeading\" class=\"firstHeading\">NITK STEP</h4>"+
+		"<div id=\"bodyContent\">"+
+		"<p>It's a entrepreneurship development and an incubation centre. Home to NITK's entrepreneurs, it gives start ups an office to bring their ideas to life.
+		To know more, visit http://www.nitkstep.org </p>"+
+		"</div>"+
+		"</div>"
 	}
 	];
 

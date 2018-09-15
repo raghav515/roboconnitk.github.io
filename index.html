@@ -1,72 +1,248 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-  <head>
-    <title>ACM Trails</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <style>
-      #map {
-        height: 100%;
-      }
+	<head>
+		<title>Robocon NITK</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	</head>
+	<body>
 
-      .search-bar{
-        position: fixed; z-index: 100; margin: 3vw;width: 70vw; background-color: white;
-        border-radius: 10px;
-      }
-    .search-bar { opacity:.8 };
-      
-    </style>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="descpdata.json" type="text/javascript"></script>
-	<script src="mapstyle.json" type="text/javascript"></script>
-    <script src="index.js" type="text/javascript"></script>
-    
-  </head>
-  <body>
-        
-        <div class="search-bar" style="padding:0 5px 0 5px">
-            <div class="input-field col s12 fields">
-                <input type="text" id="autocomplete-input-search" class="autocomplete">
-                <label for="autocomplete-input">Search</label>
-            </div>
-        </div>
-        <div style=" position: relative" id="map"></div>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">Centre For System Design <span>NITK Surathkal</span></a></div>
+			<!-- Nav 		<a href="#menu" class="toggle"><span>Menu</span></a>-->
+			</header>
 
-        <div style="background-color:#80D1FF; height:10vh;" id="navbar">
-            <a style=" float:left; margin: 1vh" href="https://nitk.acm.org/" target="_blank"><img class="acm-logo" src="logo.png"></a>
-            <p style="float:left; margin: 1vh 0 0 2vw; font-size: 6vh; font-family: 'Lobster', cursive; color: white">Trails</p>
-            <a style=" float:right; margin: 1vh" href="#bottom"><img class="acm-logo" src="directions.png"></a>
-        </div>
+		<!-- Nav 
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+-->
+		<!-- Banner -->
+		<!--
+			To use a video as your background, set data-video to the name of your video without
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
+			<section id="banner" data-video="images/banner">
+				<div class="inner">
+<img style="width:100px" src="images/rob.gif">
+					
+					<h1 style="font-family: 'Russo One', sans-serif;">CSD ROBOCON</h1>
+					<p>Team of Robotics Enthusiasts from NITK Surathkal<br />
+				</p>
+					<a href="#one" class="button special scrolly">Enter</a>
+				</div>
+			</section>
 
-        <div id="bottom" class="row s12">
-                    <h4 class="dir-heading center"><i class="material-icons prefix">directions</i>&nbsp;Directions</h4>
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">directions_walk</i>
-                        <input type="text" id="autocomplete-input-directions-from" class="autocomplete">
-                        <label for="autocomplete-input-directions-from">From</label>
-                    </div>
-                    <div  class="input-field col s12 fields">
-                        <i class="material-icons prefix"></i>
-                        <input type="text" id="autocomplete-input-directions-to" class="autocomplete" disabled>
-                        <label for="autocomplete-input-directions-to">To</label>
-                    </div>
-            </div>
-            <div class="col s12">
-                    <h4 class="dir-heading center"><i class="material-icons prefix">place</i>&nbsp;Search for tags</h4>
-                    <div class="tag-section"><div id="place-tags"></div></div>
-            </div>
-            <p style="text-align: center">*Zoom out before searching</p>
-            <p style="width:100vw; color: white; background-color:#80D1FF; text-align: center ">Made with &#10084; by ACM Saahitya and Sanganitra</p>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0FMobQw8jMaZHvsHJyPqzUMSkmfyEsWs&callback=initMap"
-async defer></script>
-  </body>
+		<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div>
+						<div class="box">
+							<div class="image fit">
+								<img style=""src="https://i.ytimg.com/vi/zOcqD-y4j4I/maxresdefault.jpg" alt="" />
+							</div>
+							<div class="content" style="color:black">
+								<header class="align-center">
+									<h2 style="font-family: 'Russo One', sans-serif;">ABU Robocon</h2>
+									<p>The Ultimate Robotics Contest for Undergraduates</p>
+								</header>
+								<hr />
+								<p>CSD-Robocon-NITK Team takes part in the Ultimate Robotics Contest for Undergraduates – ABU Robocon. We build Robots that aim at incredible Precision, Reliability and Speed or in other words Industrial performance.
+Every year (since 2002), one of the member countries of Asia Pacific Broadcasting Union which Doordarshan – India is part of, hosts the ABU Robocon. In August of 2017, ABU Robocon 2018, theme and rules were announced by Vietnam and the journey began for, the First Team from NITK to take part in Robocon.
+
+To take part in Robocon, the team must not only be proficient and innovative in Mechanical Design, Electronics Design and Programming but also back it up with soft skills like Building/Manufacturing skills, Management (Time and Resources and Team Dynamics), but above all must have a constant drive and motivation to keep going ahead.
+									</p>
+								<p>
+									
+As a rookie team, we are proud to say, we not only created two bots that reliably complete the task, but made NITK proud, on National Television by baging the <strong>“First time Best Usage of MATLAB”</strong> Award. Quoting Veer Alakshendra, Student Competition Technical Evangelist, MathWorks India Pvt. Ltd. “The MathWorks team was happy to see the model based design workflow: design, simulate and deploy...”.
+
+To achieve this, we followed a systematic Product Development Approach - from Concept Development, Design Stage, Prototyping to Manufacturing. The Design of Mecanum 4WD for Automatic Bot and Omni Wheel drive used in Manual Bot, were tested in Simulink/MATLAB by MathWorks. The SolidWorks model of the bot’s chassis with the drive assembly were imported into Simulink. Then the inverse kinematics required in control of Holonomic Drive used in the bots were tested in simulation before deploying to hardware. This approach was also expanded to higher layer of control/decision making (Line Following, Path Planning etc.). This approach combined with the professionalism in Simulink program is what won us the Award.
+
+From Conceptualization to Competing, the team has a learnt many lessons and made many mistakes,. But in the following year in ABU Robocon 2019 (Mongolia) we execute the lessons learnt and correct our mistakes and aim for absolute excellence in every aspect of the project.
+
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<div id="flexgrid">
+						<div>
+							<header>
+								<h3>Tempus Feugiat</h3>
+							</header>
+							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu</p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>Aliquam Nulla</h3>
+							</header>
+							<p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed </p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>Sed Magna</h3>
+							</header>
+							<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style2">
+				<div class="inner">
+					<div class="grid-style">
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<div id="ytplayer1"></div>
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<h2>Lorem ipsum dolor</h2>
+										<p>maecenas feugiat ex purus, quis volutpat lacus placerat</p>
+									</header>
+									<hr />
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<div id="ytplayer"></div>
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>mattis sapien pretium tellus venenatis</p>
+									</header>
+									<hr />
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="wrapper style3">
+				<div class="inner">
+
+					<header class="align-center">
+						<h2>Morbi interdum mollis sapien</h2>
+						<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+					</header>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper">
+				<div class="inner">
+					<section>
+						<div class="box">
+							<div class="content">
+								<h2 class="align-center">Get in Touch</h2>
+								<hr />
+								<form action="#" method="post">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input name="name" id="name" type="text" placeholder="Name">
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input name="email" id="email" type="email" placeholder="Email">
+									</div>
+									<div class="field">
+										<label for="dept">Department</label>
+										<div class="select-wrapper">
+											<select name="dept" id="dept">
+												<option value="">- Category -</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions align-center">
+										<li><input value="Send Message" class="button special" type="submit"></li>
+									</ul>
+								</form>
+							</div>
+						</div>
+					</section>
+					<div class="copyright">
+						&copy; CSD Robocon: <a href="https://templated.co/">TEMPLATED</a>. 
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+			<script>
+			var tag = document.createElement('script');
+			tag.src = "https://www.youtube.com/player_api";
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+			var player;
+			var player1;
+			function onYouTubePlayerAPIReady() {
+				player1 = new YT.Player('ytplayer1', {
+				height: '360',
+				width: '640',
+				videoId: 'WVmb6lSDFj4'
+				});
+				player = new YT.Player('ytplayer', {
+				height: '360',
+				width: '640',
+				videoId: 'wKATlwtEhoc'
+				});
+
+			}
+			
+			</script>
+
+
+	</body>
 </html>
-
-

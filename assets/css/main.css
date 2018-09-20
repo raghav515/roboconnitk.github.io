@@ -3419,9 +3419,9 @@
 		background: rgba(0, 0, 0, 0.9);
 		color: #a6a6a6;
 		cursor: default;
-		height: 5.5em;
+		height: 10%;
 		left: 0;
-		line-height: 3.25em;
+		line-height: 10%;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -3435,9 +3435,9 @@
 
 		#header > .logo {
 			display: inline-block;
-			height: inherit;
+			height: 100%;
 			left: 1rem;
-			line-height: inherit;
+			line-height: 100%;
 			margin: 0;
 			padding: 0.25em;
 			position: absolute;
@@ -3446,8 +3446,7 @@
 		}
 
 			#header > .logo a {
-				font-size: 3em;
-				font-style: "font-family: 'Russo One', sans-serif;";
+				font-size: 300%;
 				color: #FFF;
 				text-decoration: none;
 				padding: 1rem;
@@ -3456,7 +3455,7 @@
 
 			#header > .logo span {
 				font-weight: 300;
-				font-size: 1.5rem;
+				font-size: 60%;
 				color: rgba(255, 255, 255, 0.5);
 			}
 
@@ -3535,7 +3534,7 @@
 			box-shadow: none;
 			overflow: hidden;
 			position: absolute;
-			top: 1.5em;
+			top: -100%;
 		}
 
 			#header.alt h1 {

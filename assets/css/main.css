@@ -3592,7 +3592,7 @@
 		}
 
 		#header > .logo a {
-			font-size: 3vh;
+			font-size: 0;
 			color: #FFF;
 			text-decoration: none;
 			padding: 1rem;

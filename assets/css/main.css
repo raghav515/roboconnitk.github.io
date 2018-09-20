@@ -2334,12 +2334,29 @@
 		}
 
 		.image.fit {
-			display: block;
-			margin: 0 0 2rem 0;
-			width: 100%;
+			margin: 0 0 0 0;
+			width: 24%;
+		}
+		@media screen and (max-width: 480px) {
+			.image.fit {
+				width: 49%;
+			}
+		}
+
+		.image.fit2 {
+			margin: 0 0 0 0;
+			width: 49%;
+		}
+		@media screen and (max-width: 480px) {
+			.image.fit2 {
+				width: 100%;
+			}
 		}
 
 			.image.fit img {
+				width: 100%;
+			}
+			.image.fit2 img {
 				width: 100%;
 			}
 
@@ -3419,7 +3436,7 @@
 		background: rgba(0, 0, 0, 0.9);
 		color: #a6a6a6;
 		cursor: default;
-		height: 10%;
+		height: 10vh;
 		left: 0;
 		line-height: 10%;
 		position: fixed;
@@ -3446,7 +3463,7 @@
 		}
 
 			#header > .logo a {
-				font-size: 300%;
+				font-size: 5vh;
 				color: #FFF;
 				text-decoration: none;
 				padding: 1rem;
@@ -3569,7 +3586,22 @@
 	@media screen and (max-width: 480px) {
 
 		#header {
+			top: -100%;
 			min-width: 320px;
+			height: 7vh;
+		}
+
+		#header > .logo a {
+			font-size: 3vh;
+			color: #FFF;
+			text-decoration: none;
+			padding: 1rem;
+			vertical-align: .4em;
+		}
+
+		#header > .logo span {
+			font-size: 0%;
+			color: rgba(255, 255, 0);
 		}
 
 	}

@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="/images/CRN_LOGO_NEW.png">
 	</head>
 	<body>
 
@@ -14,7 +15,7 @@
 			<header id="header" class="alt">
 				
 				<div class="logo">
-					<img style="height:90%" src="images/rob.gif">
+					<img style="height:90%" src="images/CRN_LOGO_NEW.png">
 					<a href="index.html"> CSD Robocon NITK <span>Centre For System Design, NITK Surathkal</span>
 					</a>
 						<!--div class="image fit"></div--><img style="height:95%"  src="images/CSD_Logo.jpg">
@@ -40,14 +41,17 @@
 		-->
 			<section id="banner" data-video="images/banner">
 				<div class="inner">
-					<img style="width:300px; " src="images/rob.gif">
-					<p><br></p>
-					<h1 style="font-family: 'Russo One', sans-serif;">CSD ROBOCON NITK</h1>
-					<p>
-						The Robocon Team from NITK Surathkal<br />
+					<img style="width:350px; margin-bottom:20px; " src="images/CRN_LOGO_NEW.png">
+					<br>
+					<h1 style="font-family: 'Russo One', sans-serif; margin-bottom:0; ">CSD ROBOCON NITK</h1>
+					<p style="font-size:30px; margin-bottom:20px;">
+						Robots Under Construction
 						<br />
 					</p>
-					<a href="#three" class="button special scrolly">Enter</a>
+					<a href="assets/docs/Brochure_2023.pdf" class="button1" target="_blank">Download Brochure</a>
+					<br>
+					<br>
+					<a href="#four" class="btn btn-outline-dark brochure-btn">Enter</a>
 				</div>
 			</section>
 		<!-- Three -->
@@ -59,8 +63,8 @@
 									<div id="trailer"></div>
 									<div class="content">
 										<header class="align-center">
-											<h2>NITK Robocon 2018 Trailer</h2>
-											<p>CSD ROBOCON NITK 2018</p>
+											<h2>NITK Robocon 2020 Trailer</h2>
+											<p>CSD ROBOCON NITK 2020</p>
 										</header>
 										<hr />
 										<p> </p>
@@ -265,8 +269,8 @@
 							</div>
 						</div>
 					</section>
-					<div class="copyright">
-						&copy; CSD Robocon: <a href="https://templated.co/">TEMPLATED</a>. 
+					<div class="copyright" >
+						&copy; 2022 CSD Robocon NITK
 					</div>
 				</div>
 			</footer>
@@ -297,7 +301,7 @@
 				player = new YT.Player('trailer', {
 				height: '360',
 				width: '100%',
-				videoId: 'wKATlwtEhoc'
+				videoId: 'B3DctwOAsaM'
 				});
 				player = new YT.Player('theme2018', {
 				height: '360',
@@ -337,7 +341,12 @@
 	}).resize();
 
 });
-
+	$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1200, 'linear');
+  });
+});
 			</script>
 
 

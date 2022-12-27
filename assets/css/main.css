@@ -9,7 +9,39 @@
 */
 
 /* Reset */
-
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ededed;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ababab;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -3791,10 +3823,10 @@
 			margin-bottom: 3rem;
 		}
 
-		#banner a {
+		/* #banner a {
 			color: #FFF;
 			text-decoration: none;
-		}
+		} */
 
 		#banner video {
 			-moz-transform: translateX(50%) translateY(50%);
@@ -3909,14 +3941,14 @@
 /* Footer */
 
 	#footer {
-		padding: 6rem 0 4rem 0 ;
+		padding: 88px 0	10px 0 ;
 		background: #f2f2f2;
 	}
 
 		#footer .copyright {
-			color: #bbb;
-			font-size: 0.9rem;
-			margin: 0 0 2rem 0;
+			color: #222222;
+			font-size: 1.2rem;
+			margin: 3rem 0 1rem 0;
 			padding: 0;
 			text-align: center;
 		}
@@ -4270,4 +4302,28 @@
 		video {
   width: 100%    !important;
   height: auto   !important;
+}
+.button1{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+}
+.button1:hover{
+color:#222222;
+background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+.button1{
+display:block;
+margin:0.4em auto;
+}
 }

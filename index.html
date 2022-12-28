@@ -7,22 +7,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 		<link rel="icon" type="image/x-icon" href="/images/CRN_LOGO_NEW.png">
 	</head>
 	<body>
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				
-				<div class="logo">
-					<img style="height:90%" src="images/CRN_LOGO_NEW.png">
-					<a href="index.html"> CSD Robocon NITK <span>Centre For System Design, NITK Surathkal</span>
-					</a>
-						<!--div class="image fit"></div--><img style="height:95%"  src="images/CSD_Logo.jpg">
-						<img style="height:95%" src="images/NITK_logo.png">
-				</div>
-			<!-- Nav 		<a href="#menu" class="toggle"><span>Menu</span></a>-->
-			</header>
+
+
 
 		<!-- Nav 
 			<nav id="menu">
@@ -39,7 +31,7 @@
 			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
 			formats to work correctly.
 		-->
-			<section id="banner" data-video="images/banner">
+			<section id="banner" data-video="images/banner" >
 				<div class="inner">
 					<img style="width:350px; margin-bottom:20px; " src="images/CRN_LOGO_NEW.png">
 					<br>
@@ -51,9 +43,20 @@
 					<a href="assets/docs/Brochure_2023.pdf" class="button1" target="_blank">Download Brochure</a>
 					<br>
 					<br>
-					<div href="#three" class="icon-scroll"></div>
+					<div  class="icon-scroll"><a href="#three"></a></div>
 				</div>
 			</section>
+
+<nav id="topNav" style="z-index: 100;">
+    <a class="navbar-brand" href="#one">
+    <img src="/images/CRN_LOGO_NEW.png"  height="55" alt="" style="margin-right: 1rem;"   >
+	</a>
+	<a class="navbar-brand" href="https://csd.nitk.ac.in/"><img src="/images/CSD_Logo_1.png"  height="55" alt="" style="margin-right: 1rem;"  ></a>
+	<a class="navbar-brand" href="https://www.nitk.ac.in/"><img src="/images/nitk.png"  height="50" alt="" ></a>
+	
+  
+</nav>
+
 		<!-- Three -->
 			<section id="three" class="wrapper style2">
 				<div class="inner">
@@ -92,7 +95,7 @@
 
 
 					<!-- Two -->
-			<section id="two" class="wrapper style3">
+			<section id="two" class="wrapper style3 " >
 				<div class="inner">
 					<div id="flexgrid">
 						<div>
@@ -194,9 +197,9 @@
 			</section>
 
 
-			<section id="zero" class="wrapper style2">
-
-				<div class="box">
+			<section id="zero" class="wrapper style2" style="padding-left: 3vw; padding-top: 0.8vh">
+				<center><h2 style="padding-bottom: 5vh;">PREVIOUS THEME VIDEOS</h2></center>
+				<!-- <div class="box">
 						
 
 					<div class="content">
@@ -208,12 +211,36 @@
 						<hr />
 						<p> </p>
 					</div>
+				</div> -->
+				<div class="hstack gap-3">
+					<div class="card" style="width: 32rem;">
+						<div id="theme2022"></div>
+						<div class="card-body">
+							<h5 class="card-title">ABU Robocon 2022</h5>
+							<p class="card-text">India</p>
+						</div>
+					</div>
+					<div class="card" style="width: 32rem;">
+						<div id="theme2021"></div>
+						<div class="card-body">
+							<h5 class="card-title">ABU Robocon 2021</h5>
+							<p class="card-text">China</p>
+						</div>
+					</div>
+					<div class="card" style="width: 32rem;">
+						<div id="theme2020"></div>
+						<div class="card-body">
+							<h5 class="card-title">ABU Robocon 2020</h5>
+							<p class="card-text">Fiji</p>
+						</div>
+					</div>
 				</div>
+				
 			</section>
 
 
 		<!-- Four -->
-			<section id="four" class="wrapper style3">
+			<section id="four" class="wrapper style3" >
 				<div class="inner">
 
 					<header class="align-center">
@@ -239,7 +266,7 @@
 							<div class="content">
 								<h2 class="align-center">Get in Touch</h2>
 								<hr />
-								<form action="https://formspree.io/robocon@nitk.edu.in" method="POST" />
+								<form action="https://formspree.io/robocon@nitk.edu.in" method="POST" /> <!-- Need to edit this -->
 									<div class="field half first">
 										<label for="name">Name</label>
 										<input name="name" id="name" type="text" placeholder="Name">
@@ -295,10 +322,20 @@
 			var player;
 			var player1;
 			function onYouTubePlayerAPIReady() {
-				player1 = new YT.Player('theme2019', {
+				player1 = new YT.Player('theme2021', {
 				height: '360',
 				width: '100%',
-				videoId: 'WVmb6lSDFj4'
+				videoId: 'nopiWv3lyXE'
+				});
+				player1 = new YT.Player('theme2022', {
+				height: '360',
+				width: '100%',
+				videoId: 'o7pQHNqg1bE'
+				});
+				player1 = new YT.Player('theme2020', {
+				height: '360',
+				width: '100%',
+				videoId: '9Gwg4JXFjV0'
 				});
 				player = new YT.Player('trailer', {
 				height: '360',
@@ -346,8 +383,20 @@
 	$(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1200, 'linear');
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 100, 'linear');
   });
+});
+
+var navBar = $("#topNav");
+var hdrHeight = $("header").height();
+
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdrHeight + 650) {
+    navBar.addClass("navScrolled");
+  } else {
+    navBar.removeClass("navScrolled");
+  }
 });
 			</script>
 

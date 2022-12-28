@@ -2,11 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Taviraj:300,400,700,300i,400i,700i");
 
-/*
-	Transitive by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 ::-webkit-scrollbar {
@@ -4359,3 +4354,39 @@ margin:0.4em auto;
   100%
     {opacity: 0;
     transform: translateY(25px);}}
+
+	nav {
+  background: #000000;
+  position: relative;
+  width: 100%;
+  height: 60px;
+ text-align: center;
+  margin-bottom: -50px;
+  padding: 5px 0;
+  transition: box-shadow 0.5s ease;
+
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fcfff5;
+  padding: 10px;
+}
+
+
+
+/* Sticky Navigation */
+.navScrolled {
+  position: fixed;
+  /* background: linear-gradient(180deg, rgba(34, 34, 34, 0.87) 41.6%, rgba(111, 111, 111, 0.77) 77.55%, rgba(196, 196, 196, 0) 115.03%); */
+  background: #000000;
+  top: 0;
+  z-index: 1;
+
+}
